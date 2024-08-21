@@ -5,7 +5,7 @@ import ftc from '../../assets/interior.png';
 
 export function Galeria() {
     return (
-        <div className=" px-16 pt-10 bg-black">
+        <div className=" px-16 pt-10 bg-black " id='gallery'>
             <div>
                 <h1 className="text-xl font-semibold text-white">GALERIA <span className="text-red-600">//</span></h1>
             </div>

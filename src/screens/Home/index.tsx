@@ -3,20 +3,20 @@ import { HeroSection } from "../../components/HeroSection";
 import { Menu } from "../../components/Menu";
 
 import { } from "../../App.css"
-import { Especification } from "../../components/Especification";
-import { Services } from "../../components/Services";
+import { Performance } from "../../components/Performance";
+import { About } from "../../components/About";
 import { Footer } from "../../components/Footer";
-import { AboutUs } from "../../components/AboutUs";
+import { Characteristics } from "../../components/Characteristics";
 
 export function Home() {
     return (
         <div>
             <Menu />
             <HeroSection />
-            <AboutUs/>
+            <Characteristics/>
+            <About />
             <Galeria />
-            <Especification />
-            <Services />
+            <Performance />
             <Footer />
         </div>
     )

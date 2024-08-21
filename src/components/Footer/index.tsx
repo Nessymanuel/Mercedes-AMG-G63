@@ -2,7 +2,7 @@ import { ArrowUpRight, FacebookIcon, Instagram, Linkedin, MailIcon, PhoneIcon } 
 
 export function Footer() {
     return (
-        <div className="bg-zinc-950 ">
+        <div className="bg-zinc-950 " id="contact">
             <div className="mx-24 py-5">
                 <div className="flex items-center justify-between"></div>
                 <div className="text-white flex gap-14 font-medium text-sm mt-10 justify-between">
