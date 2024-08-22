@@ -2,6 +2,14 @@ import { Check } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export function Performance() {
+
+    const handleDownload = () => {
+        const link = document.createElement('a');
+        link.href = 'https://www.mercedes-benz.co.id/media/pz5l5aqu/the-mercedes-amg-g-63-edition-53-brochure.pdf';
+        link.download = 'Mercedes-AMG-G63.pdf';
+        link.click();
+    };
+
     return (
         <div className="px-16 py-10 bg-black text-white" id='performance'>
             <div className="container mx-auto pt-10">
@@ -61,7 +69,10 @@ export function Performance() {
                             Teste Drive
                         </button>
                     </Link>
-                    <button className="bg-gray-900 p-3 px-6 border border-gray-700 text-white rounded-md text-lg hover:bg-gray-800 transition-colors">
+                    <button 
+                        className="bg-gray-900 p-3 px-6 border border-gray-700 text-white rounded-md text-lg hover:bg-gray-800 transition-colors"
+                        onClick={handleDownload}
+                    >
                         Obter Catálogo
                     </button>
                 </div>

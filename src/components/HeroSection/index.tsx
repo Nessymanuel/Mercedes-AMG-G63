@@ -1,4 +1,4 @@
-import { DotIcon, MessageCircleIcon, PhoneCallIcon, PhoneIcon } from 'lucide-react'
+import { PhoneIcon } from 'lucide-react'
 import front from '../../assets/front.png'
 
 

@@ -4,9 +4,9 @@ import { Menu } from "../../components/Menu";
 
 import { } from "../../App.css"
 import { Performance } from "../../components/Performance";
-import { About } from "../../components/About";
+import { About } from "../../components/Services";
 import { Footer } from "../../components/Footer";
-import { Characteristics } from "../../components/Characteristics";
+import { Characteristics } from "../../components/AboutUs";
 
 export function Home() {
     return (
